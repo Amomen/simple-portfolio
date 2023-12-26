@@ -2,10 +2,16 @@
   font-family: "Open Sans", sans-serif;
   margin: 0;
 }
+
+.banner {
+  display: flex;
+  align-items: center;
+  margin: 0 200px;
+}
 nav {
   display: flex;
   justify-content: space-between;
-  margin: 50px 200px;
+  margin: 20px 200px;
 }
 nav ul {
   display: flex;
@@ -34,4 +40,39 @@ ul li a {
   border: 0;
   padding: 18px 35px;
   background-image: linear-gradient(orangered, tomato);
+}
+.cv {
+  height: 64px;
+  border-radius: 5px;
+  color: white;
+  font-size: 20px;
+  font-weight: 700;
+  border: 0;
+  padding: 18px 35px;
+  background-image: linear-gradient(orangered, tomato);
+  margin-left: 50px;
+}
+.cv-btn {
+  margin-top: 100px;
+  display: flex;
+}
+.banner-title {
+  font-weight: 700;
+  font-size: 45px;
+  margin-bottom: 20px;
+}
+.author-name {
+  font-weight: 600;
+  font-size: 75px;
+  margin-bottom: 30px;
+}
+.banner-para {
+  color: grey;
+}
+.header {
+  background-image: url(./images/header_bg.png), url(./images/developer.png);
+  background-repeat: no-repeat;
+  background-position: bottom right, left;
+  background-color: #fff8f3;
+  margin-top: 0;
 }
