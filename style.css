@@ -76,3 +76,32 @@ ul li a {
   background-color: #fff8f3;
   margin-top: 0;
 }
+/* main section */
+.main-section {
+  max-width: 1140px;
+  margin: 0 auto;
+}
+/* about section syles */
+.about-section {
+  margin-top: 130px;
+  background-color: #fff8f3;
+  border-radius: 10px;
+  padding: 130px 150px;
+  text-align: center;
+}
+.about-title {
+  margin-bottom: 30px;
+}
+.about-txt {
+  color: gray;
+  margin-bottom: 30px;
+}
+.address {
+  margin-top: 40px;
+  display: flex;
+  justify-content: space-between;
+}
+.address-name {
+  font-weight: bold;
+  font-size: 20px;
+}
