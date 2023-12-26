@@ -99,9 +99,77 @@ ul li a {
 .address {
   margin-top: 40px;
   display: flex;
-  justify-content: space-between;
+  justify-content: space-around;
 }
 .address-name {
   font-weight: bold;
   font-size: 20px;
+}
+/* WHat i do section starts here */
+.skills {
+  margin-top: 130px;
+}
+.what-i-do {
+  text-align: center;
+  font-size: 45px;
+}
+.skills p {
+  text-align: center;
+  margin: 50px auto;
+  display: block;
+  font-size: 20px;
+}
+.skill-cards {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 50px;
+}
+.skill-card {
+  padding: 20px 30px 70px 30px;
+  border: none;
+  background-color: whitesmoke;
+  margin-left: 20px;
+  box-shadow: 9px 9px 12px 5px grey;
+  border-radius: 10px;
+}
+.skill-title {
+  font-size: 20px;
+  font-weight: bold;
+  margin: 20px 0;
+}
+.skill-txt {
+  color: gray;
+}
+/* summery section style */
+.sum-title {
+  text-align: center;
+  font-size: 35px;
+  font-weight: bold;
+  margin-bottom: 50px;
+}
+.experience {
+  display: flex;
+  justify-content: space-between;
+}
+.education {
+  margin-left: 20px;
+}
+.my-ed {
+  font-size: 25px;
+}
+.degree {
+  margin-top: 10px;
+  font-size: 20px;
+}
+.university {
+  margin-top: 15px;
+  font-size: 25px;
+  color: gray;
+}
+.lorem {
+  margin-top: 20px;
+  color: gray;
+}
+hr {
+  border: 2px solid gray;
 }
