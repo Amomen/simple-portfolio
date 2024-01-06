@@ -173,3 +173,40 @@ ul li a {
 hr {
   border: 2px solid gray;
 }
+.d-btn {
+  display: flex;
+  justify-content: center;
+}
+.down {
+  margin: 50px 0 100px 0;
+}
+.footer {
+  display: flex;
+  background-color: #fff8f3;
+  padding: 100px 50px 50px 50px;
+  justify-content: space-evenly;
+}
+.connect h3 {
+  font-size: 30px;
+  font-weight: 700;
+}
+.s-btn {
+  display: flex;
+  margin-top: 20px;
+}
+.social {
+  margin-left: 20px;
+}
+.message h3 {
+  font-size: 30px;
+}
+.message input,
+textarea {
+  display: block;
+  margin-bottom: 24px;
+  border: 0;
+}
+.input {
+  height: 40px;
+  width: 400px;
+}
